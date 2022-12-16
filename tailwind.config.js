@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
       },
+      rotate: {
+        '-45': '-45deg',
+      }
     },
   },
   plugins: [],
