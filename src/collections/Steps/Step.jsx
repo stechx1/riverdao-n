@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 export const Step = ({ stepNo, heading, para, imgSrc, reverse }) => {
   return (
-    <div className={`flex ${reverse? "flex-row-reverse":"flex"} justify-between my-16 items-center`}>
+    // <div className={`${reverse? "flex-col md:flex-row-reverse":"flex-col md:flex-row"} justify-between my-16 items-center`}>
+    <div className={`flex-col md:flex md:flex-row ${reverse? "flex-col md:flex-row-reverse":"flex"} justify-between my-16 items-center`}>
       <div className='max-w-[500px] flex flex-col space-y-6'>
         <div className="space-y-2">
           <p className='text-sm tracking-widest font-bold'>Step {stepNo}</p>
