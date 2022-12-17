@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const Navbar = () => {
   return (
-    <div className='flex space-x-6 mx-auto w-[50%] my-8'>
+    <div className='flex justify-center space-x-6 mx-auto my-8'>
       <Link href={''}>
         <p className='uppercase font-bold tracking-tighter'>About</p>
       </Link>
